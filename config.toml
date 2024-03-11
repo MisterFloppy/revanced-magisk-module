@@ -16,6 +16,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "both"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 
 [Twitter]
 build-mode = "apk"
@@ -26,7 +27,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.ap
 
 [TikTok]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
 
 [Reddit]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
